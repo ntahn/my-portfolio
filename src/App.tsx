@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import { About } from "./components/About";
 import { Edu } from "./components/Edu";
 import { Skills } from "./components/Skills";
+import { Experience } from "./components/Experience";
 
 function App() {
 	return (
@@ -29,7 +30,9 @@ function App() {
 				</Portfolio>
 			</Route>
 			<Route exact path="/experience">
-				<Portfolio></Portfolio>
+				<Portfolio>
+					<Experience />
+				</Portfolio>
 			</Route>
 			<Route exact path="/projects">
 				<Portfolio></Portfolio>

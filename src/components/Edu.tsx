@@ -19,7 +19,7 @@ export const Edu: React.FC<Props> = () => {
 				<h2 className="font-bold text-lg">
 					Cybersoft Programing Education Center
 				</h2>
-				<p className="text-sm">(2020/08 - present)</p>
+				<p className="text-sm">(2020/08 - 2021/04)</p>
 			</div>
 			<p className="text-sm">
 				&#8226; Front-end Foundation course: basic knowledge of HTML5, CSS3,
