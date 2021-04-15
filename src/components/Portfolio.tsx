@@ -1,6 +1,7 @@
 import React from "react";
 import avatar from "../images/avatar.jpg";
 import { NavLink } from "react-router-dom";
+import pdf from "./../files/CV_Nguyen_Tuan_Anh_Front-end_Developer.pdf";
 
 interface Props {}
 
@@ -24,7 +25,7 @@ export const Portfolio: React.FC<Props> = ({ children }) => {
 							</div>
 						</NavLink>
 
-						<div className=" mt-4 space-y-8 mb-8">
+						<div className=" my-4 space-y-8">
 							<p className=" ml-10 flex ">
 								<span>
 									<svg
@@ -129,6 +130,14 @@ export const Portfolio: React.FC<Props> = ({ children }) => {
 									Projects
 								</NavLink>
 							</p>
+						</div>
+						<div className="flex align-middle justify-center hover:text-blue-500 my-6">
+							<a
+								href={pdf}
+								download="CV_Nguyen_Tuan_Anh_Front-end_Developer.pdf"
+							>
+								Download my CV 📄
+							</a>
 						</div>
 					</div>
 					<div className=" relative col-span-7 glass-gradient-lighter">

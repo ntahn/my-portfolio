@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Edu } from "./components/Edu";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
+import { Projects } from "./components/Projects";
 
 function App() {
 	return (
@@ -35,7 +36,9 @@ function App() {
 				</Portfolio>
 			</Route>
 			<Route exact path="/projects">
-				<Portfolio></Portfolio>
+				<Portfolio>
+					<Projects />
+				</Portfolio>
 			</Route>
 			<Route path="">
 				<div>Page not found!</div>

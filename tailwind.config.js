@@ -12,6 +12,9 @@ module.exports = {
 			minHeight: {
 				80: "80vh",
 			},
+			maxHeight: {
+				view: "63vh",
+			},
 			fontFamily: {
 				body: ["Poppins"],
 			},
