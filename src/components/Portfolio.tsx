@@ -178,7 +178,7 @@ export const Portfolio: React.FC<Props> = ({ children }) => {
 								<span> anh.nguyen996002@gmail.com</span>
 							</div>
 							<a
-								href="https://github.com/ntahn"
+								href="https://github.com/ntahn/my-portfolio"
 								target="_blank"
 								rel="noreferrer"
 							>
