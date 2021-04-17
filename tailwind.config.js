@@ -13,7 +13,7 @@ module.exports = {
 				80: "80vh",
 			},
 			maxHeight: {
-				view: "63vh",
+				view: "68vh",
 			},
 			fontFamily: {
 				body: ["Poppins"],
