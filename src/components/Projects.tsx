@@ -66,7 +66,7 @@ export const Projects: React.FC<Props> = () => {
 				<h2 className=" font-bold text-xl ">To Do</h2>
 				<p className="">a task managing app that i made</p>
 				<img className=" " src={todo} alt="todo" />
-				<p>Technology: Typescript, React Hooks, TailwindCss</p>
+				<p>Technology: Typescript, React Hooks, TailwindCss, React Spring</p>
 				<a
 					href="https://ntahn-todo.netlify.app/"
 					target="_blank"
