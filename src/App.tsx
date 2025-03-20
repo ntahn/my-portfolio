@@ -6,6 +6,7 @@ import { Edu } from "./components/Edu";
 import { Skills } from "./components/Skills";
 import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
+import { Accomplishments } from "./components/Accomplishments";
 
 function App() {
 	return (
@@ -23,6 +24,11 @@ function App() {
 			<Route exact path="/edu">
 				<Portfolio>
 					<Edu />
+				</Portfolio>
+			</Route>
+			<Route exact path="/accomplishments">
+				<Portfolio>
+					<Accomplishments />
 				</Portfolio>
 			</Route>
 			<Route exact path="/skills">

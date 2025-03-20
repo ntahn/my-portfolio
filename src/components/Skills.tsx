@@ -16,7 +16,7 @@ export const Skills: React.FC<Props> = () => {
         <li className="flex text-md">
           <p className="font-bold mr-6 w-1/5">Javascript</p>
           <span className=" my-auto">
-            ES5/ES6, AJAX, RESTful API, Axios, TypeScript, Reactjs
+            ES5/ES6, AJAX, RESTful API, Axios, TypeScript, ReactJS
           </span>
         </li>
         <li className="flex text-md">
@@ -29,11 +29,11 @@ export const Skills: React.FC<Props> = () => {
         </li>
         <li className="flex text-md">
           <p className="font-bold mr-6 w-1/5">Soft Skills</p>
-          <span className=" my-auto">Teamwork, problems solving</span>
+          <span className=" my-auto">Teamwork, problems solving, critical thinking</span>
         </li>
         <li className="flex text-md">
           <p className="font-bold mr-6 w-1/5">English</p>
-          <span className=" my-auto">Intermediate</span>
+          <span className=" my-auto">Upper-Intermediate (Duolingo English Test)</span>
         </li>
       </ul>
     </div>

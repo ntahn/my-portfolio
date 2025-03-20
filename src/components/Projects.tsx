@@ -1,111 +1,87 @@
 import React from "react";
-import tiix from "./../images/tiix.png";
-import tiixx from "./../images/tiix2.png";
-import quizt from "./../images/quizt.png";
-import quiztt from "./../images/quiztt.png";
-import todo from "./../images/todo.png";
-import omni from "./../images/omnifood.png";
-import kagency from "./../images/yoyo.png";
-import kagencyFooter from "./../images/kagency.png";
+import goFanHQ from "./../images/GofanHQ.png";
+import goFanBoxOffice from "./../images/GoFanBoxOffice.png";
+import ethos from "./../images/Ethos.png";
 
-interface Props {}
+interface Props { }
 
 export const Projects: React.FC<Props> = () => {
   return (
     <div className="m-14 space-y-6 max-h-view overflow-scroll overflow-x-hidden ">
       <h1 className="text-header font-extrabold text-3xl">
-        Some of my projects 📂
+        Some projects that I worked on 📂
       </h1>
       <div className="pr-2 space-y-2">
-        <h2 className=" font-bold text-xl ">Kagency</h2>
-        <p className="">A landing page of a marketing company </p>
-        <img className=" " src={kagency} alt="tiix" />
-        <img className="" src={kagencyFooter} alt="tiixx" />
-        <p>Technology: React hooks, SCSS, React Quill, Bootstrap</p>
+        <h2 className=" font-bold text-xl ">Coplogic™ Ethos</h2>
+        <p className="">Coplogic Ethos allows all traffic officers, whether they're in cars, on
+motorcycles, or on bicycles, to quickly and easily report accidents and issue tickets right from
+their phones or tablets while they're out on patrol</p>
+        <img className=" " src={ethos} alt="ethos" />
+        <p>Technology: TypeScript, React Native, Redux</p>
         <a
-          href="https://kagency.vn/"
+          href="https://apps.apple.com/us/app/coplogic-ethos/id1536646637?l=vi"
           target="_blank"
           rel="noreferrer"
           className=" bg-indigo-400 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
         >
-          Demo Link
+          See It Live
+        </a>
+        <a
+          href="https://risk.lexisnexis.com/products/coplogic-ethos"
+          target="_blank"
+          rel="noreferrer"
+          className=" bg-gray-500 text-center px-3 text-white py-2 my-2 mr-4 inline mr-2-inline-block rounded "
+        >
+          Project Details
         </a>
       </div>
       <div className="pr-2 space-y-2">
-        <h2 className=" font-bold text-xl ">Tiix</h2>
+        <h2 className=" font-bold text-xl ">GoFanHQ</h2>
+        <p className="">GofanHQ provides schools with a user-friendly dashboard to manage their own events and
+          seasons, eliminating the need for administrative support.</p>
+        <img className=" " src={goFanHQ} alt="gofanHQ" />
+        <p>Technology: TypeScript, ReactJS, Redux Saga, Carbon, SCSS, React Hook Form</p>
+        <a
+          href="https://hq.gofan.co/login"
+          target="_blank"
+          rel="noreferrer"
+          className=" bg-indigo-400 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
+        >
+          See It Live
+        </a>
+        <a
+          href="https://playonsports.com/hq"
+          target="_blank"
+          rel="noreferrer"
+          className=" bg-gray-500 text-center px-3 text-white py-2 my-2 mr-4 inline mr-2-inline-block rounded "
+        >
+          Project Details
+        </a>
+      </div>
+      <div className="pr-2 space-y-2">
+        <h2 className=" font-bold text-xl ">GoFan Box Office</h2>
         <p className="">
-          I worked on login and dashboard routes of a movie booking web app
+          Box Office enable event organizers to sell tickets and concessions directly at
+          their events
         </p>
-        <img className=" " src={tiix} alt="tiix" />
-        <img className="" src={tiixx} alt="tiixx" />
-        <p>Technology: React hooks, Bootstrap 4, SCSS, ES6, APIs, Axios</p>
+        <img className="" src={goFanBoxOffice} alt="GoFan Box Office" />
+        <p>Technology: TypeScript, React Native, Redux, React-Query, Stripe Terminal, Seats.io</p>
         <a
-          href="https://tiix.netlify.app/"
+          href="https://apps.apple.com/us/app/gofan-box-office/id1673489155"
           target="_blank"
           rel="noreferrer"
           className=" bg-indigo-400 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
         >
-          Demo Link
+          See It Live
         </a>
         <a
-          href="https://github.com/ntahn/tiix"
+          href="https://gofan.playonsports.com/box-office"
           target="_blank"
           rel="noreferrer"
           className=" bg-gray-500 text-center px-3 text-white py-2 my-2 mr-4 inline mr-2-inline-block rounded "
         >
-          Github Link
+          Project Details
         </a>
-      </div>
-      <div className="pr-2 space-y-2">
-        <h2 className=" font-bold text-xl ">Quizt</h2>
-        <p className="">A quiz app to test your knowledge</p>
-        <img className=" " src={quizt} alt="quizt" />
-        <img className="" src={quiztt} alt="quiztt" />
-        <p>Technology: React hooks, TailwindCSS, TypeScript, APIs, Axios</p>
-        <a
-          href="https://quizt.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-          className=" bg-indigo-400 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
-        >
-          Demo Link
-        </a>
-        <a
-          href="https://github.com/ntahn/quizt"
-          target="_blank"
-          rel="noreferrer"
-          className=" bg-gray-500 text-center px-3 text-white py-2 my-2 mr-4 inline mr-2-inline-block rounded "
-        >
-          Github Link
-        </a>
-      </div>
-      <div className="pr-2 space-y-2">
-        <h2 className=" font-bold text-xl ">To Do</h2>
-        <p className="">a task managing app that i made</p>
-        <img className=" " src={todo} alt="todo" />
-        <p>Technology: Typescript, React Hooks, TailwindCss, React Spring</p>
-        <a
-          href="https://ntahn-todo.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-          className=" bg-indigo-400 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
-        >
-          Demo Link
-        </a>
-        <a
-          href="https://github.com/ntahn/todo"
-          target="_blank"
-          rel="noreferrer"
-          className=" bg-gray-500 text-center px-3 text-white py-2 my-2 mr-2 inline-block rounded "
-        >
-          Github Link
-        </a>
-      </div>
-      <div className="pr-2 space-y-2">
-        <h2 className=" font-bold text-xl ">Omnifood</h2>
-        <p className="">a UI clone of food delivery app</p>
-        <img className=" " src={omni} alt="omnifood" />
-        <p>Technology: HTML,CSS</p>
       </div>
     </div>
   );
