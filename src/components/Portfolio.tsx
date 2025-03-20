@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from "../images/avatar.jpg";
 import { NavLink } from "react-router-dom";
-import pdf from "./../files/CV_Nguyen_Tuan_Anh_Front-end_Developer.pdf";
+import pdf from "./../files/Tuan_Anh_Nguyen_CV.pdf";
 
 interface Props {}
 
